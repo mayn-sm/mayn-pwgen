@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="title">
+        <h1 id="heading">Generate a</h1>
+        <h1>random password</h1>
+        <h2>Never use an insecure password again</h2>
+        </div>
+        <button id="generate" onclick="generate()">Generate passwords</button>
+        <input type="range" min="8" max="32" value="16" class="slider" id="myRange" onchange="range()">Password Length: <span id="length"></span></input>
+        <div class="pw-out">
+         <input type="text" id="pass1"></input>
+         <button id="copy1" onclick="copy1()">Copy</button>
+         <input type="text" id="pass2"></input>
+         <button id="copy2" onclick="copy2()">Copy</button>
+         <input type="text" id="pass3"></input>
+         <button id="copy3" onclick="copy3()">Copy</button>
+         <input type="text" id="pass4"></input>
+         <button id="copy4" onclick="copy4()">Copy</button>  
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
